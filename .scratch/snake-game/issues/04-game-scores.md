@@ -4,7 +4,7 @@
 
 **Blocked by:** #02 (User auth), #03 (Game engine)
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 - [ ] Create `scores` table in MySQL via SQLAlchemy model (id, user_id FK→users, score, difficulty ENUM low/medium/high, played_at)
 - [ ] Implement `POST /api/scores` (auth required) — accepts `{ score, difficulty }`, inserts record, returns created record
