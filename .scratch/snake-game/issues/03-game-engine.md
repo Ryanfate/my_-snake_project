@@ -4,7 +4,7 @@
 
 **Blocked by:** #01 — Project scaffolding
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 - [ ] Create `frontend/src/game/engine.js` as a pure module exporting a `createGame(initialState)` factory function
 - [ ] Game state: `{ snake: [{x, y}], direction: 'RIGHT', food: {x, y}, obstacles: [{x, y}], score: number, gameOver: boolean, difficulty: 'low'|'medium'|'high', gridSize: 40 }`
