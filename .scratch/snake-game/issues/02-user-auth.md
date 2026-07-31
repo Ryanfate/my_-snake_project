@@ -4,7 +4,7 @@
 
 **Blocked by:** #01 — Project scaffolding
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 - [ ] Create `users` table in MySQL via SQLAlchemy model (id, username UNIQUE, password_hash, created_at)
 - [ ] Implement `POST /api/auth/register` — validates username uniqueness, hashes password with bcrypt, returns user id + username
