@@ -4,7 +4,7 @@
 
 **Blocked by:** None — can start immediately.
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 - [ ] Create `backend/` directory with FastAPI entry point (`main.py`), `requirements.txt` with fastapi, uvicorn, sqlalchemy, pymysql, passlib[bcrypt], python-jose, pydantic
 - [ ] Create `database.py` with SQLAlchemy engine connecting to local MySQL, reading credentials from environment variables (MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE)
